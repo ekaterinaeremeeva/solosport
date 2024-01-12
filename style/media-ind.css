@@ -1,0 +1,387 @@
+@media screen and (width < 810px) {
+   
+    /* glavnaya */
+   
+    .banner-mein {
+        width: 360px;
+        height: auto;
+    }
+
+    .banner-mein img {
+        width: 360px;
+        height: auto;
+    }
+
+    .banner-mein__text {
+        width: 75%;
+    }
+    .text-section {
+        width: 304px;
+        height: auto;
+    }
+
+    .page-section {
+        display: -ms-inline-grid;
+    }
+
+    /*o-nas*/
+
+    .mein-slogan__text {
+        width: 360px;
+        height: auto;
+        margin: 0;
+
+    }
+     .carousel {
+        width: 75%;
+     }
+
+     .obraz-jizni{
+        width: 360px;
+        height: auto;
+
+     }
+
+     .halk-block {
+        display: in;
+    }
+       
+        
+
+     .halk-block__text {
+        width: 75%;
+     }
+
+     .svoistva__item {
+        display: inline-block;
+     }
+
+     .nasha-komanda {
+
+        display: inline-block;
+  
+     }
+
+    
+}
+
+
+
+
+
+/**/
+@media screen and (width <= 1200px) {
+    .page-header__nav {
+        margin-left: 0;
+    }
+}
+
+@media screen and (width < 1024px) {
+
+    .page-header__img {
+        width: 120px;
+        height: 34px;
+    }
+
+    .page-header__nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 149px;
+        width: 100%;
+        padding: 40px 20px;
+        z-index: 2;
+
+        background-color: var(--color-black);
+    }
+
+    .page-header__menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page-header__toggle-menu {
+        display: block;
+        padding: 0;
+    }
+
+    .page-header__toggle-menu.is-active ~ .page-header__nav{
+        display: block;
+    }
+
+    .page-header__icon{
+        display: none;
+    }
+
+    .page-header__row{
+        margin: 0 12px;
+        width: 360px;
+
+    }
+
+    /* footer */
+    .footer__text, 
+    .footer__info, 
+    .footer__links,
+    .footer__mode,
+    .footer__contacts, 
+    .footer__phone{
+        display: none;
+    }
+
+    .footer__row{
+        margin-top: 16px;
+        justify-content: space-around;
+    }
+
+    .footer__logo{
+        margin-bottom: 0;
+    }
+
+    .footer{
+        padding: 16px 0;
+    }
+}
+
+
+@media screen and (width < 810px){
+    /* fit-blog */
+    .fit-blog-card__img img{
+        width: 768px;
+        height: auto;
+    }
+
+    .main-block__card img{
+        width: 315px;
+        height: auto;
+    }
+
+    .fit-blog-card__text{
+        width: 75%;
+    }
+
+}
+
+
+
+@media screen and (width < 768px){
+   /* prices */
+   .main-block{
+        margin-top: 29px;
+   }
+
+   .main-block__title{
+        font-size: 32px;
+        margin-bottom: 22px;
+   }
+
+   .main-block__form-title{
+        padding-top: 21px;
+   }
+
+   .main-block{
+        margin-top: 21px;
+        margin-bottom: 27px;
+    }
+
+    .main-block__form-title{
+        font-size: 18px;
+    }
+
+    .main-block__form-text{
+        padding-top: 8px;
+        padding-bottom: 22px;
+        font-size: 16px;
+    }
+
+    .main-block__form input, .main-block__form select{
+        width: 340px;
+        height: 32px;
+        border-radius: 7px;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .main-block__form input{
+        padding: 9px 12px;
+    }
+
+    .main-block__form select{
+        padding-left: 9px;
+        background-position: 310px center;
+    }
+
+    .btn-from{
+        width: 340px;
+        font-size: 12px;
+        border-radius: 10px;
+        margin-bottom: 27px;
+    }
+
+    .btn{
+        min-height: 32px;
+        min-width: 140px;
+    }
+
+
+    /* table */
+    .table__membership th{
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    
+    .table__membership td{
+        font-size: 11px;
+        font-weight: 400;
+        padding: 4px 0 4px 4px;
+    }
+
+    .table{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* btn-primary-installment */
+    .btn-primary-installment{
+        font-size: 12px;
+        width: 140px;
+        padding: 10px 35px;
+    }
+
+    .btn-installment {
+        margin-top: 31px;
+        margin-bottom: 46px;
+    }
+
+    
+    /* модальное окно */
+    .modal-content {
+        padding: 20px;
+        border-radius: 20px;
+        width: 75%;
+    }
+    
+    .modal__title{
+        font-size: 14px;
+        line-height: 126%;
+        margin-bottom: 20px;
+    }
+    
+    .close {
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 12px;
+    }
+    
+    .modal-body{
+        margin-left: 32px;
+    }
+    
+    .application__input{
+        width: 90%;
+        height: 32px;
+        border-radius: 20px;
+        border: 2px solid #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        padding: 4px 12px;
+    }
+    
+    .btn-application{
+        min-width: 90%;
+        min-height: 32px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 20px;
+        line-height: 150%;
+        padding: 4px 12px;
+    }
+
+
+
+
+    /* fit-blog */
+    .main-block__cards{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .main-block__card-title{
+        font-size: 12px;
+    }
+
+    .main-block__card-text{
+        font-size: 8px;
+        margin-top: 12px;
+    }
+
+    .main-block__card{
+        gap: 12px;
+        padding-bottom: 32px;
+    }
+
+    .main-block__card img{
+        width: 136px;
+        height: 129px;
+    }
+
+    .main-block__card-btn{
+        font-size: 12px;
+    }
+
+    .pagination {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+
+
+    /* fit-blog-card */
+    .fit-blog-card__img img{
+        width: 308px;
+        height: auto;
+    }
+
+    .fit-blog-card__img{
+        margin-top: 24px;
+    }
+
+    .fit-blog-card__title{
+        font-size: 16px;
+        width: 50%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .fit-blog-card__text{
+        font-size: 12px;
+        gap: 12px;
+        width: 75%;
+    }
+
+    .fit-blog-card__text span{
+        font-size: 14px;
+    }
+    
+    .fit-blog-card__text ul{
+        margin-left: 14px;
+    }
+    
+    .fit-blog-card__btn{
+        display: none;
+    }    
+
+    .fit-blog-card__info{
+        margin-bottom: 80px;
+    }
+
+}
+
+@media screen and (width < 600px) {
+    .page-header__phone{
+        display: none;
+    }
+}
